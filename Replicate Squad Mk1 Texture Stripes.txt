@@ -1,0 +1,13 @@
+Stripes
+Dupe layer twice
+Top Layer
+opacity 20%
+
+Mid Layer
+Outer Glow, Normal, 5px or so, black, 5% noise
+Rasterize layer style
+Gause Blur 2.0
+
+Bottom Layer
+Opacity 50%
+Gause Blur 1.0

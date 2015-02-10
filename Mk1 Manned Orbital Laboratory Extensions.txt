@@ -1,0 +1,48 @@
+Mk1 Manned Orbiting Laboratory Extensions (M.O.L.E.)
+
+Mk1 Docking Tunnel System
+- Has a parachute
+- Has RCS thrusters (left, right, up, down)
+- Accomodates Clamp-O-Tron Jr
+- Attaches to nose
+
+Mk1 Backseat
+- Attaches to rear
+- Has room for 1 kerbal
+- Contains RCS thrusters (left, right, up, down, forward, back)
+- Contains 120 units of monopropellant
+- Contains 45u of LiquidFuel, 55u of Oxidizer
+- TAC-LS supplies for 12 days
+- Base diameter: 1.875m
+
+Backseat Heatshield
+- 1.875m size
+- DRE compatible
+
+Decoupler
+- 1.875m size
+- Has small tunnel for crew transfer
+
+Transtage
+- 1.875m LFO tank 303u of LiquidFuel, 371u of Oxidizer
+
+Transtage Engine
+- LV-909 equivalent
+
+Station Command Module
+- 1.875m diameter
+- Contains SAS
+- Contains batteries
+- TAC-LS supplies for 30 days
+
+Multipurpose Laboratory Module
+- Compatible with Multipurpose Colony Modules
+
+Dolores Telescope System
+- Has small service bay for gyroscopes
+- Has plug for camera modules.
+- FungEye equivalent
+
+1.875m to 1.25m adapter
+
+1.875m to 2.5m adapter
