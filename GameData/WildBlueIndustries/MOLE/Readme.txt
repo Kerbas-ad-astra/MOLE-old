@@ -1,7 +1,7 @@
 Mark One Laboratory Extensions (M.O.L.E.)
 
 Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Add a docking tunnel system with integrated RCS and parachute to making rendezvous and docking easier. With the Station Service Module, you’ll have additional life support (TAC-LS and Kerbal Snacks compatible), electrical power, and monopropellant. Add a Mark One Laboratory Extension for your experiments, and/or a DenEye Space Telescope for uh- astronomy! Yeah, that’s it!
-MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, CactEye Telescope System, and Multipurpose Colony Modules.
+MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, Real Chute, Deadly Re-Entry, Regolith, CactEye Telescope System, and Multipurpose Colony Modules.
 
 Real World Inspiration
 
@@ -16,6 +16,12 @@ http://www.thelivingmoon.com/45jack_files/03files/MOL_Manned_Orbiting_Laboratory
 Copy the contents of the zip file to your GameData directory. Be sure to overwrite existing files and replace them.
 
 ---REVISION HISTORY---
+
+0.1.1 Backseat Driver
+- Adds the Mk1-85 Backseat. It has optional support for Regolith (for the Monopropellant Power Unit), KAS, TAC Life Support, and Deadly Re-Entry.
+- Adds the SD-18 Decoupler Adapter. It comes in three different sizes. You can remove the decoupler from the staging list before launch.
+- The Flight Control Package now has optional support for RealChute.
+- Bug fixes
 
 0.1.0 Initial Release
 - Introduces the Mk1 Flight Control Package.

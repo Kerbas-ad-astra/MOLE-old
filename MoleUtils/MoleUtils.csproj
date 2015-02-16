@@ -46,7 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FCPController.cs" />
+    <Compile Include="ModuleBackseatController.cs" />
+    <Compile Include="ModuleRCSTechCheck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
