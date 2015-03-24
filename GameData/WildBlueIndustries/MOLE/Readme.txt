@@ -17,6 +17,9 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.1.2 Gemini At 50
+- Added the WBL-400 Adapter Tank. It fits on the back of the Backseat, carries LFO, has a built-in decoupler and built-in separatrons for stage separation.
+
 0.1.1 Backseat Driver
 - Adds the Mk1-85 Backseat. It has optional support for Regolith (for the Monopropellant Power Unit), KAS, TAC Life Support, and Deadly Re-Entry.
 - Adds the SD-18 Decoupler Adapter. It comes in three different sizes. You can remove the decoupler from the staging list before launch.
