@@ -8,7 +8,7 @@
     <ProjectGuid>{0727F77B-B856-4D7D-8B2C-C1318B1EE46F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MoleUtils</RootNamespace>
+    <RootNamespace>WildBlueIndustries</RootNamespace>
     <AssemblyName>MoleUtils</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Assembly-CSharp">
+    <Reference Include="Assembly-CSharp, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\SteamApps\common\Kerbal Space Program\KSP_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -48,6 +49,7 @@
   <ItemGroup>
     <Compile Include="ModuleBackseatController.cs" />
     <Compile Include="ModuleRCSTechCheck.cs" />
+    <Compile Include="ModuleWB400.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

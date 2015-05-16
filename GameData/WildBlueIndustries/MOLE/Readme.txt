@@ -17,6 +17,10 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.1.3 Refurbishments
+- Recompiled for 1.0.2
+- Reworked the decoupler/adapter art
+
 0.1.2 Gemini At 50
 - Added the WBL-400 Adapter Tank. It fits on the back of the Backseat, carries LFO, has a built-in decoupler and built-in separatrons for stage separation.
 
