@@ -17,6 +17,23 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.1.4 Revisions, revisions, and more revisions.
+NOTE: This can potentially break your current saves so please retire any vessels you have in flight.
+NOTE: Delete your previous WildBlueIndustries folder; directories have moved around.
+
+- Recompiled for 1.0.4
+- The MK1-85 is now officially named the Appaloosa. Since no aircraft ever survives its official name, pilots call it the Backseat.
+- Added the Appaloosa Interstage Service Compartment.
+- Fixed top node on the WB-400
+- Added a shroud to the heat shield
+- Resized the SD-18 Adapter/Decoupler and repositioned the top node to accomodate the new heat shield design.
+- Reworked the WB-400 to account for the new heat shield design.
+- Updated drag cube for the FCP parachute.
+- Increased Ablator on the heat shield.
+- Restructured directory for CKAN support.
+- Added MOLE to KerbalStuff.
+- Added MOLE to CKAN.
+
 0.1.3 Refurbishments
 - Recompiled for 1.0.2
 - Reworked the decoupler/adapter art
