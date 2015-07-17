@@ -28,8 +28,6 @@ namespace WildBlueIndustries
 
         public override void OnStart(StartState state)
         {
-            string parentPartName = null;
-            ModuleRCS rcsModule = null;
             base.OnStart(state);
 
             if (!HighLogic.LoadedSceneIsFlight)
@@ -37,21 +35,7 @@ namespace WildBlueIndustries
             if (this.part.parent == null)
                 return;
 
-            //Find parent part. If it is the Backseat, then disable its RCS.
-            if (this.part.parent.partInfo != null)
-            {
-                parentPartName = this.part.parent.partInfo.name.Replace('.', '_');
-                if (parentPartName == disableRCSOnPart)
-                {
-                    rcsModule = this.part.parent.FindModuleImplementing<ModuleRCS>();
-                    if (rcsModule == null)
-                        return;
-                    rcsModule.Disable();
-                    parentRCS = rcsModule;
-                    wasAttached = this.part.isAttached;
-                }
-            }
-
+            findParentRCS(this.part.parent);
         }
 
         public override void OnFixedUpdate()
@@ -71,6 +55,41 @@ namespace WildBlueIndustries
                 Log(ex);
             }
 
+        }
+
+        protected void partDetached(bool first = true)
+        {
+        }
+
+        protected void findParentRCS(Part parentPart)
+        {
+            string parentPartName = null;
+            ModuleRCS rcsModule = null;
+
+            if (parentPart == null)
+                return;
+
+            //Find parent part. If it is the Backseat, then disable its RCS.
+            if (parentPart.partInfo != null)
+            {
+                parentPartName = parentPart.partInfo.name.Replace('.', '_');
+                if (parentPartName == disableRCSOnPart)
+                {
+                    rcsModule = parentPart.FindModuleImplementing<ModuleRCS>();
+                    if (rcsModule == null)
+                        return;
+                    rcsModule.Disable();
+                    rcsModule.rcsEnabled = false;
+                    parentRCS = rcsModule;
+                    wasAttached = this.part.isAttached;
+                }
+
+                else
+                {
+                    //Walk up the chain
+                    findParentRCS(parentPart.parent);
+                }
+            }
         }
     }
 }
