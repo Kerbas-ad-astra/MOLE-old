@@ -17,7 +17,7 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
-0.1.4 Revisions, revisions, and more revisions.
+0.1.5 Revisions, revisions, and more revisions.
 NOTE: This can potentially break your current saves so please retire any vessels you have in flight.
 NOTE: Delete your previous WildBlueIndustries folder; directories have moved around.
 
