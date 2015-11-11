@@ -17,6 +17,25 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.1.7
+
+WB400
+- Added resource switcher; you can now switch between different resource types just like with other Wild Blue Industries' storage tanks.
+- The default template is the original resource layout with LiquidFuel, Oxidizer, and MonoPropellant.
+- If you have KIS installed, then the WB400 can be converted to storage. Simply cycle through the templates until you find Storage.
+
+Bug Fixes
+- Fixed abnormal height reported in the editor's Engineer's Report when adding the FCP.
+
+Other
+- Updated to KSP 1.0.5 & latest MM and WildBlueTools.
+
+0.1.6
+- Fixed issues related to the heat shield. Thanks eightiesboi and Starwaster!
+- Added decouple FX to the heat shield.
+- Adjusted node strength on the heat shield.
+- Updated to latest WildBlueTools and MM.
+
 0.1.5 Revisions, revisions, and more revisions.
 NOTE: This can potentially break your current saves so please retire any vessels you have in flight.
 NOTE: Delete your previous WildBlueIndustries folder; directories have moved around.
