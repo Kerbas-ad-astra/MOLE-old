@@ -1,4 +1,4 @@
-EXPERIMENT_DEFINITION:NEEDS[!MunSeeker]
+EXPERIMENT_DEFINITION
 {	
 	id = radioScope
 	title = Radio Astronomy
