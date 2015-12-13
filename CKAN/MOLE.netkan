@@ -1,7 +1,7 @@
 {
     "spec_version"   : "v1.4",
     "identifier"     : "Mark One Laboratory Extensions",
-    "$kref"          : "#/ckan/kerbalstuff/933",
+    "$kref"          : "#/ckan/kerbalstuff/964",
     "$vref"          : "#/ckan/ksp-avc",
     "release_status" : "stable",
     "x_netkan_license_ok" : true,
