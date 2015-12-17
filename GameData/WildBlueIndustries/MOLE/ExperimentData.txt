@@ -1,4 +1,32 @@
-﻿EXPERIMENT_DEFINITION
+﻿
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Gist
+
+    @Angel-125
+
+1
+0
+
+    1
+
+Kerbas-ad-astra/MOLE forked from Angel-125/MOLE
+Code
+Pull requests 0
+Wiki
+Pulse
+Graphs
+MOLE/GameData/WildBlueIndustries/MOLE/ExperimentData.txt
+d8caea1 3 days ago
+@Kerbas-ad-astra Kerbas-ad-astra One last cleanup commit.
+2 contributors
+@Kerbas-ad-astra
+@Angel-125
+83 lines (65 sloc) 5.81 KB
+EXPERIMENT_DEFINITION
 {	
 	id = radioScope
 	title = Radio Astronomy
@@ -80,3 +108,4 @@
 		EelooSrfLanded = The sensor has a great vantage point to survey the skies for pulsars, quasars, black holes, and radio galaxies. It even detected a supernova.
 	}
 }
+

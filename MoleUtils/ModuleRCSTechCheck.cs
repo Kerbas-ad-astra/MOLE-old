@@ -49,6 +49,9 @@ namespace WildBlueIndustries
                 {
                     setObject(0);
                 }
+
+                //Switch ourself off.
+                this.isEnabled = false;
             }
         }
 

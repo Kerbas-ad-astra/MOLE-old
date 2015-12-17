@@ -9,6 +9,6 @@ C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\bin\Debug\TrackIRUnity.dll
 C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\bin\Debug\Mono.Cecil.dll
 C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\bin\Debug\Mono.Security.dll
 C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\bin\Debug\WildBlueTools.pdb
+C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\obj\Debug\MoleUtils.csprojResolveAssemblyReference.cache
 C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\obj\Debug\MoleUtils.dll
 C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\obj\Debug\MoleUtils.pdb
-C:\Projects\KSP\WildBlueIndustries\MOLE\MoleUtils\obj\Debug\MoleUtils.csprojResolveAssemblyReference.cache
