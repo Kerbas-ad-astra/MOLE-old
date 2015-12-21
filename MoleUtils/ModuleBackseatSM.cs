@@ -18,7 +18,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 */
 namespace WildBlueIndustries
 {
-    public class ModuleWB400 : ExtendedPartModule
+    public class ModuleBackseatSM : ExtendedPartModule
     {
         [KSPField(isPersistant = true)]
         public string disableRCSOnPart = null;

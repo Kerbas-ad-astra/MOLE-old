@@ -1,11 +1,11 @@
 Mark One Laboratory Extensions (M.O.L.E.)
 
-Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Add a docking tunnel system with integrated RCS and parachute to making rendezvous and docking easier. With the Station Service Module, you’ll have additional life support (TAC-LS and Kerbal Snacks compatible), electrical power, and monopropellant. Add a Mark One Laboratory Extension for your experiments, and/or a DenEye Space Telescope for uh- astronomy! Yeah, that’s it!
-MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, Real Chute, Deadly Re-Entry, Regolith, CactEye Telescope System, and Multipurpose Colony Modules.
+Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Add a docking tunnel system with integrated RCS and parachute for making rendezvous and docking easier. With the Station Service Module, you’ll have additional life support (TAC-LS and Kerbal Snacks compatible), electrical power, and monopropellant. Add a Mark One Laboratory Extension for your experiments, and/or a DenEye Space Telescope for uh- astronomy! Yeah, that’s it!
+MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, Real Chute, CactEye Telescope System, and more.
 
 Real World Inspiration
 
-Back in the 1960s, the USAF has a military space program, and one of its projects was the Manned Orbiting Laboratory (MOL). MOL was designed as a spy satellite (KH-10 Dorian) disguised as a military research station. One of the cool things about it is that the Gemini spacecraft was already attached to the station when it launched. The Air Force flew a mockup into orbit once, but then the program was cancelled. 
+Back in the 1960s, the USAF had a military space program, and one of its projects was the Manned Orbiting Laboratory (MOL). MOL was designed as a spy satellite (KH-10 Dorian) disguised as a military research station. One of the cool things about it is that the Gemini spacecraft was already attached to the station when it launched. The Air Force flew a mockup into orbit once, but then the program was cancelled. 
 References
 http://www.thespacereview.com/article/2539/1
 http://www.nationalmuseum.af.mil/factsheets/factsheet.asp?id=1647
@@ -16,6 +16,36 @@ http://www.thelivingmoon.com/45jack_files/03files/MOL_Manned_Orbiting_Laboratory
 Copy the contents of the zip file to your GameData directory. Be sure to overwrite existing files and replace them.
 
 ---REVISION HISTORY---
+
+0.2 Further Developments
+This update brings some tweaks, a new internal view, and a complete redesign of the Interstage Service Compartment.
+
+MK85 Heat Shield
+- Tweaked the heat shield mass and Ablator to be inline with stock heat shields.
+
+FCP
+- Adjusted drag curve for the FCP. Combined with the heat shield change, this should help with self-aligning the capsule for re-entry.
+
+SD-18 & SD-25
+- Made some minor mesh improvements to the SD-18 and SD-25 adapters to make them look nicer. I think I'm finally satisfied with their look. :) NOTE: As a reminder, you can toggle the staging icon off and use the adapter/decoupler as an adapter only. And you can flip them around to adapt to different sizes.
+
+Backseat
+- Added IVA for the Backseat. It has support for stock props and ASET props. Control layout is a work in progress, but it totally beats the placeholder IVA. Cockpit lights are named CockpitLight, just in case somebody adds an ASET cockpit light switch. ;)
+- Added USI-LS support to the Backseat for when USI Life Support is installed. It has 15 days of supplies for two kerbals (you get a total of 30 days with the Mk1 pod and the Backseat due to how USI-LS works).
+- The SAS level will be automatically upgraded as technology improves: Advanced Flight Control, level 2; Specialized Control, level 3. Sandbox mode gives level 3.
+- Added camera transforms: cameraTransformFront, cameraTransformLeft, cameraTransformRight, cameraTransformBottom. These are for Raster Prop Monitor cameras.
+
+Appaloosa Interstage Service Compartment (ISC)
+- Added side doors that you can open to access equipment inside of the compartment for when the aft end is blocked by another stage component.
+- Added RCS thruster ports (as long as you've unlocked Advanced Flight Control).
+- Added a decoupler; arrows show which way it decouples.
+- Added an active radiator that can be switched on and off.
+- Added a crew tube that can be toggled (it's largely cosmetic).
+
+Other
+- Added bulkhead profiles courtesy of kerbas-ad-astra. Thanks! :)
+- Added support for Connected Living Spaces to the Backseat, FCP, WBM-400, Mk85 Heat Shield, SD-18, ISC, and SD-25, courtesy of kerbas-ad-astra. Thanks! :)
+- Experiment data corrections courtesy of kerbas-ad-astra. Thanks! :)
 
 0.1.7
 

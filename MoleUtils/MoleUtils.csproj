@@ -49,7 +49,8 @@
   <ItemGroup>
     <Compile Include="ModuleBackseatController.cs" />
     <Compile Include="ModuleRCSTechCheck.cs" />
-    <Compile Include="ModuleWB400.cs" />
+    <Compile Include="ModuleBackseatSM.cs" />
+    <Compile Include="ModuleSASUpgrade.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
