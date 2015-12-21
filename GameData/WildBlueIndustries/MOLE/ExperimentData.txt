@@ -1,4 +1,4 @@
-EXPERIMENT_DEFINITION
+﻿EXPERIMENT_DEFINITION
 {	
 	id = radioScope
 	title = Radio Astronomy
