@@ -46,12 +46,14 @@ namespace WildBlueIndustries
 
                 //Switch ourself off.
                 this.isEnabled = false;
+                this.enabled = false;
             }
         }
 
-        public override void OnUpdate()
+
+        public override void OnFixedUpdate()
         {
-            base.OnUpdate();
+            base.OnFixedUpdate();
 
             if (HighLogic.CurrentGame.Mode != Game.Modes.SANDBOX)
                 checkForUpgrade();

@@ -6,16 +6,51 @@ MOLE is a stand-alone parts pack with optional support for TAC Life Support, Ker
 Real World Inspiration
 
 Back in the 1960s, the USAF had a military space program, and one of its projects was the Manned Orbiting Laboratory (MOL). MOL was designed as a spy satellite (KH-10 Dorian) disguised as a military research station. One of the cool things about it is that the Gemini spacecraft was already attached to the station when it launched. The Air Force flew a mockup into orbit once, but then the program was cancelled. 
+
 References
+
 http://www.thespacereview.com/article/2539/1
 http://www.nationalmuseum.af.mil/factsheets/factsheet.asp?id=1647
 http://www.thelivingmoon.com/45jack_files/03files/MOL_Manned_Orbiting_Laboratory.html
-
+http://www.aerospaceprojectsreview.com/blog/?p=66
+http://www.astronautix.com/lvs/barianmm.htm
+http://www.space.com/31470-manned-orbiting-laboratory-military-space-station.html
+http://www.nro.gov/foia/declass/MOL.html
 
 ---Installation---
 Copy the contents of the zip file to your GameData directory. Be sure to overwrite existing files and replace them.
 
 ---REVISION HISTORY---
+
+0.3 Remember the Titans!
+
+This update introduces a bunch of new parts. Chief among them is the Titan series of fuel tanks and associated hardware. The textures are based upon the Titan II Gemini Launch Vehicle. This release also redesigns the Flight Control Package slightly to be virtually the same diameter as the Mk1 command pod's upper attachment node. You also get a complementary docking port since the Clamp-O-Tron Jr no longer fits on the FCP. Finally, the Backseat received some minor tweaks.
+
+New Parts
+- Added the Titan series of fuel tanks. They are 1.875m in diameter and come in three sizes: the 450, 900, and 1800. These tanks are fully compatible with the Wild Blue Industries' resource template system, and can hold parts if converted to storage and KIS is installed.
+- Added the Titan II series of fuel tanks. They are 2.5m in diameter and come in four sizes. They're equal to the Rockomax 8, 16, 32, and 64 but are also fully compatible with the WBI resource template system. The Titan II series is a KSP version of the real-world Titan "Barbarian" variant.
+- Added the Coach 225, a 1.875m logistics module.
+- Added the Coach 300, a 2.5m logistics module.
+- Added the 1.875m Payload Faring. This is just a modified stock faring that's been resized for 1.875m diameter.
+- Added the Titan Instrument Unit. This is a 1.875m probe core/gyro assembly combo. It can be upgraded as technology improves, and includes a kOS CPU if the kOS mod is installed.
+- Added the Twin Engine Coupler. This 1.875m engine mount has space for a pair of 1.25m engines and carries a small amount of fuel.
+- Added the Quad Engine Coupler. This is a 2.5m engine with space for four 1.25m engines, and it too carries a small amount of fuel.
+- Added the Short Interstage Adapter. This 1.875m adapter lets you attach 1.25m diameter engines.
+- Added the Long Interstage Adapter. This 1.875m adapter lets you attach 1.25m diameter engines.
+- Added the Mk1 Docking Port, specially designed for the Mk1 command pod and the Flight Control Package. It is fully compatible with the Clamp-O-Tron Jr, and it contains a small drogue chute. It cannot be radially attached, however.
+- Added the LV-T270 "Fulcrum" rocket engine. It is designed after the stock LV-T series of rocket engines.
+
+FCP
+- Redesigned the Flight Control Package to be virtually the same diameter as the Mk1 command pod's upper attachment node. I like the slimmer look. :)
+- Fixed an issue that allowed RCS thrusters to work when you haven't unlocked the proper tech node.
+
+Backseat
+- Added support for kOS if the mod is installed.
+- Removed RocketParts resource; the Coach can bring them up if needed.
+- Fixed the Supplies resource for when USI-LS is installed.
+
+Sample Craft
+- Added several sample craft. You can find them in the MOLE/SampleCraft/VAB folder.
 
 0.2 Further Developments
 This update brings some tweaks, a new internal view, and a complete redesign of the Interstage Service Compartment.
