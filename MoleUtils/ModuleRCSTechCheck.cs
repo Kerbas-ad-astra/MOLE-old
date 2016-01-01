@@ -39,7 +39,7 @@ namespace WildBlueIndustries
                     //Hide the ModuleRCS
                     rcsModule = this.part.FindModuleImplementing<ModuleRCS>();
                     if (rcsModule != null)
-                        this.part.Modules.Remove(rcsModule);
+                        this.part.RemoveModule(rcsModule);
 
                     //Hide the RCS meshes
                     setObject(-1);
@@ -52,6 +52,7 @@ namespace WildBlueIndustries
 
                 //Switch ourself off.
                 this.isEnabled = false;
+                this.enabled = false;
             }
         }
 
@@ -73,9 +74,9 @@ namespace WildBlueIndustries
             }
         }
 
-        public override void OnUpdate()
+        public override void  OnFixedUpdate()
         {
-            base.OnUpdate();
+            base.OnFixedUpdate();
 
             if (HighLogic.CurrentGame.Mode != Game.Modes.SANDBOX)
                 checkForUpgrade();
