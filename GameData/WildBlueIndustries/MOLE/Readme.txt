@@ -22,6 +22,22 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.4.1 
+- Updated to latest WildBlueTools
+
+0.4 For Science!
+
+New Parts
+- Added the MOLE, a 1.875m science lab. It can perform basic science by consuming ResearchKits. If you have Pathfinder installed, then you can configure it for Science operations at reduced efficiency compared to the Doc Science Lab. NOTE: Unlike the Doc, you cannot reconfigure the MOLE during flight.
+- Added the MOLE II, a 2.5m science lab. It is just like its 1.875m counterpart but slightly larger, and can hold a crew of two.
+
+Titan Instrument Unit
+- Revised the part description and made the crew tube height flush with the structural ring.
+
+Sample Craft
+- Added the Titan ATV. It is configured to carry LiquidFuel, Oxidizer, MonoPropellant, and has two Coaches ready to accept parts stored via KIS.
+- Made some minor updates to the K-20 Kestrel.
+
 0.3 Remember the Titans!
 
 This update introduces a bunch of new parts. Chief among them is the Titan series of fuel tanks and associated hardware. The textures are based upon the Titan II Gemini Launch Vehicle. This release also redesigns the Flight Control Package slightly to be virtually the same diameter as the Mk1 command pod's upper attachment node. You also get a complementary docking port since the Clamp-O-Tron Jr no longer fits on the FCP. Finally, the Backseat received some minor tweaks.
