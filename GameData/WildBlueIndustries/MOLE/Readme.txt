@@ -22,21 +22,46 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
-0.4.1 
-- Updated to latest WildBlueTools
+0.4.2 For Science!
 
-0.4 For Science!
+Looks like I got ahead of myself with the version numbering and features. This release straightens it all out. I'm also happy to report that with this update, MOLE Phase 1 is complete! I'm now working on MOLE Phase 2, which adds the 1.875m station components, and is about halfway done.
 
 New Parts
-- Added the MOLE, a 1.875m science lab. It can perform basic science by consuming ResearchKits. If you have Pathfinder installed, then you can configure it for Science operations at reduced efficiency compared to the Doc Science Lab. NOTE: Unlike the Doc, you cannot reconfigure the MOLE during flight.
-- Added the MOLE II, a 2.5m science lab. It is just like its 1.875m counterpart but slightly larger, and can hold a crew of two.
+- Added the MOLE, a 1.875m science lab. It can perform basic science by consuming ResearchKits. A 2.5m version is planned. The IVA is on backorder- artist's block.
+  * If you have Pathfinder installed, then you can configure it for Science operations at reduced efficiency compared to the Doc Science Lab. 
+  * NOTE: Unlike the Doc, you CANNOT reconfigure the MOLE during flight.
+- Added the Titan Nose Cone, a 1.875m nose cone based on the stock Mk7 nose cone, but with new textures.
+- Added the Titan Adapter Tank, a 1.875m to 2.5m fuel tank.
+- Added the Power Module, a 1.875m station module with a Monopropellant Power Unit (MPU), MonoPropellant, and ElectricCharge.
+- Added the SPF-8 solar panel; this large, early model solar panel is roughly equal to 8 OX-4 solar panels and costs about as much.
+- Added the O-2 "Oxygen" monopropellant powered thruster. It is an OMS engine that can function as a launch abort motor in an emergency.
+
+Mk-85 Backseat
+- Adjusted the center of bouyancy. Thanks for the tips, Kerbas_ad_astra! :)
+- Finished up the IVA flight controls.
+
+Mk1 Docking Port
+- Added RealChute support.
+- For RealChute, the cut altitude of the drogue chute equals the deployment altitude of the main chute.
+NOTE: With RealChute installed, you won't see the staging icon for the docking port until you right-click the part and select Enable Staging. This is a KSP/RealChute issue that arises from the combined docking port and parachute.
+- If you DON'T have RealChute installed, the Mk1 Docking Port can now auto-cut the drogue chute. By default, the cut altitude (700 meters) equals the deploy altitude of the FCP.
 
 Titan Instrument Unit
 - Revised the part description and made the crew tube height flush with the structural ring.
 
 Sample Craft
 - Added the Titan ATV. It is configured to carry LiquidFuel, Oxidizer, MonoPropellant, and has two Coaches ready to accept parts stored via KIS.
+- Added the Titan MOLE. This craft is a single-use space station consisting of the Appaloosa and the new Mark One Laboratory Extension (MOLE), along with the new solar panels and station power module.
 - Made some minor updates to the K-20 Kestrel.
+
+Bug Fixes
+- Fixed issues with the FCP not working with RealChute.
+- Fixed (again) the FCP's misreported height issue in VAB/SPH engineering report.
+- Adjusted the place where rocket exhaust comes out of the LV-T270 Fulcrum.
+- The Backseat MPU should properly consume MonoPropellant while generating ElectricCharge now.
+
+0.4.1 
+- Updated to latest WildBlueTools
 
 0.3 Remember the Titans!
 
