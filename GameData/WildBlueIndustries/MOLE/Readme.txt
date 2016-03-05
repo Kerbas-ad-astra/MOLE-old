@@ -1,7 +1,8 @@
 Mark One Laboratory Extensions (M.O.L.E.)
 
-Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Add a docking tunnel system with integrated RCS and parachute for making rendezvous and docking easier. With the Station Service Module, you’ll have additional life support (TAC-LS and Kerbal Snacks compatible), electrical power, and monopropellant. Add a Mark One Laboratory Extension for your experiments, and/or a DenEye Space Telescope for uh- astronomy! Yeah, that’s it!
-MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, Real Chute, CactEye Telescope System, and more.
+Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Want to fly more than one kerbal at a time? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Then add a docking tunnel system with integrated RCS and parachute for making rendezvous and docking easier. When you're ready for the next step, try out the Mk1.2 "Brumby" 2-seat command pod. Create a simple disposable space station by adding a Mark One Laboratory Extension, power module, and SPF-8 solar panels, and launch it on the 1.875m line of Titan fuel tanks powered by the LV-T270 "Fulcrum" engine. For a longer endurance station, add a Mark One Habitat, or if you're ready to try docking maneuvers, bring up a mini station hub. Your stations can even include the DenEye Space Telescope for, uh, astronomy! Yeah, that's it!
+
+MOLE is a stand-alone parts pack with optional support for Real Chute, KIS/KAS, kOS, CactEye Telescopes Continued, Kerbal Snacks, TAC Life Support, USI-LS, and more.
 
 Real World Inspiration
 
@@ -21,6 +22,38 @@ http://www.nro.gov/foia/declass/MOL.html
 Copy the contents of the zip file to your GameData directory. Be sure to overwrite existing files and replace them.
 
 ---REVISION HISTORY---
+
+0.4.3 The difficult we do today, the impossible is in R&D
+
+This update delivers some part revisions, a new radial docking port, and some bug fixes.
+
+New Part
+- Added the Mk1 Radial Docking Port. It is compatible with the Mk1 Docking Port, Clamp-O-Tron Jr. and can be radially attached. It doesn't have a drogue chute.
+
+MOLE
+- Once you've unlocked Advanced Exploration, The MOLE can serve as a Mobile Processing Laboratory (at reduced capacity) or as the basic research lab. You'll have to configure the MOLE in the VAB/SPH before launch, and you can't reconfigure it after launch. If you have Pathfinder installed, then as before, you can configure the lab as a basic research lab or as any of the standard Pathfinder science labs.
+NOTE: Code changes make it necessary for you to retire your existing MOLE modules.
+
+Backseat
+- Moved to Flight Control.
+
+Interstage Service Compartment
+- Retextured the sides to help emphasize the built-in radiator.
+- Added cosmetic avionics boxes.
+- Added aft-facing RCS ports.
+
+1.875m Heat Shield
+- Moved to Flight Control.
+
+FCP & Mk1 Docking Port
+- Resized to Size 0 (0.625m diameter). You'll need to use the VAB/SPH offset tool to flush-mount them to the Mk1 command pod's nose.
+- Added forward-facing RCS ports to the FCP.
+
+Bug Fixes
+- Removed "Toggle Decals" buttons from the Coaches. Thanks for the feedback, tater! :)
+- The Interstage Service Compartment is now easier to attach to your vessels. Thanks again, tater! :)
+- Fixed an issue with the MOLE where it wasn't providing the ability to review your research.
+- Fixed an issue with the Cryo Engines template that was adding liquid hydrogen to everything. Thanks kerbas_ad_astra! :)
 
 0.4.2 For Science!
 

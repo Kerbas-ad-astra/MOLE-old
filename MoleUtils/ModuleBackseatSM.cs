@@ -57,10 +57,6 @@ namespace WildBlueIndustries
 
         }
 
-        protected void partDetached(bool first = true)
-        {
-        }
-
         protected void findParentRCS(Part parentPart)
         {
             string parentPartName = null;
