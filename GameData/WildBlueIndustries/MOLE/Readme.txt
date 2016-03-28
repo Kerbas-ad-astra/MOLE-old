@@ -23,6 +23,30 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5 Project Space Station
+
+This update introduces the Station Logistics Hub, the Structural Adapter, and the Gemini-like Brumby. Also, the Mk1 Radial port, SPF-8, and Titan Instrument Unit have been slightly revised.
+
+New Parts
+- Added the Mk1-88 "Brumby," a 2-kerb, 1.875m, Gemini-like capsule. It is available at Advanced Flight Control. The stock IVA is complete; RPM and ASET IVAs will arrive in a future update.
+- Added Station Logistics Hub. This hub has five connector ports. The 3 side ports are designed for the Mk1 docking ports but can accommodate Clamp-O-Tron ports. The hub functions as a minimalist probe core and can hold a small amount of resource storage. Inspiration comes from the ISS's Harmony module.
+- Added the Structural Adapter, a 1.875m to 1.25m adapter similar to the Rockomax Adapter. Thanks for the suggestion, RocketSquid! :)
+
+FCP
+- Fixed an issue that prevented the FCP from working properly in Career/Science Sandbox mode when Advanced Flight Control hasn't been unlocked.
+
+Titan Tanks
+- Fixed issues where the tanks would "hover" when radially attached to other parts.
+
+Titan II Tanks
+- Due to confusion in the parts catalog, moved the Titan II line of tanks out of the MOLE category. You can still find them in the stock Fuel Tanks tab.
+
+Coach (225 & 300)
+- Added CLS support.
+
+SD-18 & SD-25
+- Added Enable/Disable Decoupler button that is only available in the VAB/SPH. If you disable the decoupler, you won't be able to fire the decoupler in flight. This can be a Good Thing (TM) if you just want to use the parts as an adapter.
+
 0.4.3 The difficult we do today, the impossible is in R&D
 
 This update delivers some part revisions, a new radial docking port, and some bug fixes.

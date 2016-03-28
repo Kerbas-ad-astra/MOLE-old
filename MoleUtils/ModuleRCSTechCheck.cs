@@ -39,7 +39,10 @@ namespace WildBlueIndustries
                     //Hide the ModuleRCS
                     rcsModule = this.part.FindModuleImplementing<ModuleRCS>();
                     if (rcsModule != null)
-                        this.part.RemoveModule(rcsModule);
+                    {
+                        rcsModule.enabled = false;
+                        rcsModule.isEnabled = false;
+                    }
 
                     //Hide the RCS meshes
                     setObject(-1);
