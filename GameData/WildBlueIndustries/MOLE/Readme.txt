@@ -23,6 +23,27 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.0.1
+- Updated for KSP 1.1.
+NOTE: This is a PRE-RELEASE version! Not guaranteed to work as KSP 1.1 Pre-Release is itself unstable. This has been tested against my own mods but NOT with other mods. I cannot realistically provide support for MOLE working with other mods until KSP 1.1 is officially released, and the other mod(s) have been updated to the release-version of KSP 1.1. All that said, I've done the best I can to test MOLE, and I do appreciate the testing you might do during the pre-release. :)
+- Updated to latest Community Resource Pack and Module Manager (Both Pre-release KSP 1.1)
+
+MOLE
+- Added the pre-release IVA. The release version will (hopefully) be done when KSP 1.1 is finalized.
+- You can now reconfigure the MOLE after launch.
+- Added a LFO template. Now you can launch the MOLE full of fuel, and then outfit it as a lab after reaching orbit. This is similar to the proposed "Wet Workshop" approach to Skylab. As a fuel tank, the MOLE holds about 80% of the fuel as a Titan 900 due to the extra parts it has to store to make it convertible.
+
+Titan Tanks (& Coach)
+- Adjusted where the tanks show up in the tech tree: 
+  Coach 225: General Rocketry
+  Titan-450: Advanced Rockety
+  Titan-900: Advanced Rocketry
+  Titan-1800: Fuel Ststems
+
+Brumby
+- Updated the TAC-LS resource amounts. Thanks StevieC! :)
+- Minor updates to the IVA to reflect the new internal overlay.
+
 0.5 Project Space Station
 
 This update introduces the Station Logistics Hub, the Structural Adapter, and the Gemini-like Brumby. Also, the Mk1 Radial port, SPF-8, and Titan Instrument Unit have been slightly revised.

@@ -106,7 +106,7 @@ namespace WildBlueIndustries
 
             //Are we done deploying/stowing the wing?
             //If so, update the lift and the GUI.
-            if (animation.animation.isPlaying == false)
+            if (anim.aniState == ModuleAnimateGeneric.animationStates.MOVING)
             {
                 ModuleLiftingSurface liftingSurface = this.part.FindModuleImplementing<ModuleLiftingSurface>();
 
