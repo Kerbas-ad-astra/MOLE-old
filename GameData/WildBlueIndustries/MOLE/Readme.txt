@@ -23,6 +23,10 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.0.2 (KSP 1.1 pre-release)
+- Removed Bigby Crew Module- it's just a concept design right now and not ready for use.
+- When converted to a fuel tank, the MOLE will hide its window, EVA hatch, and ladder rungs. They'll show up again when you convert the MOLE back into a lab.
+
 0.5.0.1
 - Updated for KSP 1.1.
 NOTE: This is a PRE-RELEASE version! Not guaranteed to work as KSP 1.1 Pre-Release is itself unstable. This has been tested against my own mods but NOT with other mods. I cannot realistically provide support for MOLE working with other mods until KSP 1.1 is officially released, and the other mod(s) have been updated to the release-version of KSP 1.1. All that said, I've done the best I can to test MOLE, and I do appreciate the testing you might do during the pre-release. :)
