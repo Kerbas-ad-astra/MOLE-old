@@ -33,12 +33,9 @@ namespace WildBlueIndustries
         {
             base.OnStart(state);
 
-            Debug.Log("FRED OnStart called.");
-
             WBIResourceSwitcher switcher = this.part.FindModuleImplementing<WBIResourceSwitcher>();
             if (switcher != null)
             {
-                Debug.Log("FRED found switcher");
                 switcher.onModuleRedecorated += new ModuleRedecoratedEvent(OnModuleRedecorated);
 
                 OnModuleRedecorated(switcher.CurrentTemplate);
@@ -47,15 +44,12 @@ namespace WildBlueIndustries
 
         public void OnModuleRedecorated(ConfigNode nodeTemplate)
         {
-            Debug.Log("FRED OnModuleRedecorated called");
             if (string.IsNullOrEmpty(hideObjects))
                 return;
             if (string.IsNullOrEmpty(hideObjectsForTemplates))
                 return;
             if (nodeTemplate.HasValue("shortName") == false)
                 return;
-
-            Debug.Log("FRED show/hide objects");
 
             //See if we should hide or show the hideObjects for the current template.
             objectsHidden = hideObjectsForTemplates.Contains(nodeTemplate.GetValue("shortName"));
@@ -65,7 +59,6 @@ namespace WildBlueIndustries
 
         public void showObjects(bool isVisible)
         {
-            Debug.Log("FRED showObjects: " + isVisible.ToString());
             if (string.IsNullOrEmpty(hideObjects))
                 return;
 

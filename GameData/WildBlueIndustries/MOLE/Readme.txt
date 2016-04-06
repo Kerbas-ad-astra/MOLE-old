@@ -23,6 +23,10 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.0.3 (KSP 1.1 pre-release)
+- Wild Blue Tools updated
+- RCS makes sounds now.
+
 0.5.0.2 (KSP 1.1 pre-release)
 - Removed Bigby Crew Module- it's just a concept design right now and not ready for use.
 - When converted to a fuel tank, the MOLE will hide its window, EVA hatch, and ladder rungs. They'll show up again when you convert the MOLE back into a lab.
