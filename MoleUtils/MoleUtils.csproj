@@ -69,7 +69,7 @@
     <Compile Include="ModuleRCSTechCheck.cs" />
     <Compile Include="ModuleRCSDisabler.cs" />
     <Compile Include="ModuleSASUpgrade.cs" />
-    <Compile Include="ModuleTextureSwitch.cs" />
+    <Compile Include="ModuleBrumbyTextureSwitch.cs" />
     <Compile Include="ModuleWetWorkshop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
