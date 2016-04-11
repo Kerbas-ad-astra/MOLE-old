@@ -71,6 +71,8 @@
     <Compile Include="ModuleSASUpgrade.cs" />
     <Compile Include="ModuleBrumbyTextureSwitch.cs" />
     <Compile Include="ModuleWetWorkshop.cs" />
+    <Compile Include="MOLEConfig.cs" />
+    <Compile Include="MOLESettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

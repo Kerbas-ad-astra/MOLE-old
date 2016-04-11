@@ -23,9 +23,12 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.0.5 (KSP 1.1 pre-release)
+- Added MOLE Settings window to the application toolbar. If you disable "Require resources to reconfigure modules" then you no longer need to bring resources to convert convert a wet workshop into a usable module or to change a module's configuration. Similarly, if you disable "Require skill check to reconfigure modules" then you no longer need to have a skilled engineer/scientist to reconfigure the module.
+NOTE: If you have Pathfinder installed, then the MOLE Settings window will not appear. Use the Pathfinder Settings window instead.
+
 0.5.0.4 (KSP 1.1 pre-release)
 - Updated Station Hub IVA to reflect new KSP 1.1 cutaway view mode.
-- Wild Blue Tools updated
 
 0.5.0.3 (KSP 1.1 pre-release)
 - Wild Blue Tools updated
