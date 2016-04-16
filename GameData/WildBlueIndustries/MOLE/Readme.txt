@@ -23,6 +23,29 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.3 Outpost
+- Added the Bigby Orbital Workshop. This Skylab-esque workshop can be configured on the ground to perform a number of different roles. With OSE Workshop installed, it can become the Bigby Orbital Workshop (5,000L construction capacity). With Extraplanetary Launchpads installed, two additional configurations are available: the Printshop, and the Smelter. With Pathfinder installed, even more templates are available: Ponderosa, Pigpen, Watney, Sunburn, BrewWorks, and Ironworks (The Printshop and Smelter are replaced by the Ironworks).
+- Added the Mk1 Paraglider. This new part is designed to function like a deployable wing that lets your spacecraft glide in for a landing.
+- Added the Mk1 Landing Skid.
+
+0.5.2 Space M+A+X
+
+New Parts
+- Added the Mark One Botany Lab (MOBL).
+
+0.5.1.1 Earth Orbit Stations
+
+New Parts
+- Added the Dolores "I ain't sleeping in no cockpit!" Kerman Mark One Habitat (MOH). With Pathfinder installed, it can be configured as a Ponderosa, Pathfinder, and Pigpen.
+
+MOLE
+- MOLE IVA is now complete.
+
+0.5.0.6
+- Recompiled for the release version of KSP 1.1
+- Changed the resource required to reconfigure modules from RocketParts to Equipment.
+- Added Equipment storage template.
+
 0.5.0.5 (KSP 1.1 pre-release)
 - Added MOLE Settings window to the application toolbar. If you disable "Require resources to reconfigure modules" then you no longer need to bring resources to convert convert a wet workshop into a usable module or to change a module's configuration. Similarly, if you disable "Require skill check to reconfigure modules" then you no longer need to have a skilled engineer/scientist to reconfigure the module.
 NOTE: If you have Pathfinder installed, then the MOLE Settings window will not appear. Use the Pathfinder Settings window instead.
