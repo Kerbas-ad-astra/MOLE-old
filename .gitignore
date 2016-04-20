@@ -41,8 +41,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 /Scenes/
-/Samples/
-/Promo Materials/
 /Scenes/
+/Samples/
+/Promo Images/
 /Renders/
-/References/
+/GraphicsAndLogos/
+/Textures/
+/Releases/
+/Unity/
