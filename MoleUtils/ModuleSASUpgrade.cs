@@ -35,14 +35,18 @@ namespace WildBlueIndustries
         {
             base.OnStart(state);
 
+            if (HighLogic.LoadedSceneIsFlight == false)
+                return;
+
             if (HighLogic.CurrentGame.Mode == Game.Modes.SANDBOX)
             {
                 ModuleSAS sasModule = this.part.FindModuleImplementing<ModuleSAS>();
                 if (sasModule != null)
+                {
                     sasModule.SASServiceLevel = 3;
-
-                sasModule.OnAwake();
-                sasModule.OnActive();
+                    sasModule.OnAwake();
+                    sasModule.OnActive();
+                }
 
                 //Switch ourself off.
                 this.isEnabled = false;

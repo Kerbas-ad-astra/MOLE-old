@@ -82,7 +82,7 @@ namespace WildBlueIndustries
                 Events["ToggleDecouplerEnabled"].guiName = "Disable Decoupler";
                 decoupler.enabled = true;
                 decoupler.isEnabled = true;
-                decoupler.Events["ToggleStaging"].Invoke();
+                decoupler.stagingEnabled = true;
             }
 
             else
@@ -91,6 +91,7 @@ namespace WildBlueIndustries
                 decoupler.Events["ToggleStaging"].Invoke();
                 decoupler.enabled = false;
                 decoupler.isEnabled = false;
+                decoupler.stagingEnabled = false;
             }
         }
     }
