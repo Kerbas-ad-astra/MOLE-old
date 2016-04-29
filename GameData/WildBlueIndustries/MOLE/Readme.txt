@@ -23,6 +23,11 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.5.0.11
+- Updated to KSP 1.1.1
+- Fixed an issue where the MOLE's lights would not turn on.
+- The MOLE IVA won't be shown when the module is configured to hold LFO and has no crew capacity.
+
 0.5.0.10
 - Fixed issue with Appaloosa when using Sandbox mode.
 
