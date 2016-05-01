@@ -23,6 +23,19 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.6.0 Earth Orbit Stations
+
+With KSP 1.1.X shenanigans finally out of the way, I'm back to creating updates for the MOLE. This update continues with Phase 2: Project Space Station, and delivers new station parts.
+
+-Updated to KSP 1.1.2
+
+New Parts
+- Added the Mk1 Drydock. You can use this to build new vessels if you have Extraplanetary Launchpads (EL) installed. The part won't be available if you have Pathfinder installed.
+- The MOLE and Station Hub now have EL productivity values.
+- Added a 1.875m docking port. This docking port is designed to dock station modules together and provides a wider hard dock than the Mk1 ports.
+- Added the Titan Separator Unit. This is a separator built to provide a clean separation between two parts.
+- Added a station light. You can configure the color and intensity in the VAB/SPH and in flight.
+
 0.5.0.11
 - Updated to KSP 1.1.1
 - Fixed an issue where the MOLE's lights would not turn on.
