@@ -23,6 +23,9 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.6.2
+- Fixed Input is NULL errors.
+
 0.6.1
 
 FCP & Mk1 Docking Port
