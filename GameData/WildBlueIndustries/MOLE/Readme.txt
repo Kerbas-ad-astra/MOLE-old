@@ -28,6 +28,16 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 FCP & Mk1 Docking Port
 - Fixed RealChute drag problems. Thanks for the fix, dave1904! :)
 
+Station Light
+- Remodeled the light slightly to make it look better.
+
+Mk1 Drydock
+- Fixed a texturing issue with the Mk1 Drydock.
+
+Life Support
+- Added support for Kerbalism
+- Added support for USI-LS. Thanks for the number crunching, Bombaatu! :)
+
 0.6.0 Earth Orbit Stations
 
 With KSP 1.1.X shenanigans finally out of the way, I'm back to creating updates for the MOLE. This update continues with Phase 2: Project Space Station, and delivers new station parts.
