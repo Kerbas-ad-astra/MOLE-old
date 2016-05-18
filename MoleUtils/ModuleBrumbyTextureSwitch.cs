@@ -24,16 +24,16 @@ namespace WildBlueIndustries
         public bool useReplacementTexture;
 
         [KSPField]
-        public string replaceTextureForParts;
+        public string replaceTextureForParts = string.Empty;
 
         [KSPField]
-        public string objectTransforms;
+        public string objectTransforms = string.Empty;
 
         [KSPField]
-        public string replacementTexture;
+        public string replacementTexture = string.Empty;
 
         [KSPField]
-        public string replacementNormal;
+        public string replacementNormal = string.Empty;
 
         public override void OnStart(StartState state)
         {

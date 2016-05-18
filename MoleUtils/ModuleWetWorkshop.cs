@@ -21,10 +21,10 @@ namespace WildBlueIndustries
     public class ModuleWetWorkshop : PartModule
     {
         [KSPField]
-        public string hideObjects;
+        public string hideObjects = string.Empty;
 
         [KSPField]
-        public string hideObjectsForTemplates;
+        public string hideObjectsForTemplates = string.Empty;
 
         [KSPField(isPersistant = true)]
         public bool objectsHidden;

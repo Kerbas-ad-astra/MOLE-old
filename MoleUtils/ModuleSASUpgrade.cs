@@ -21,13 +21,13 @@ namespace WildBlueIndustries
     public class ModuleSASUpgrade : PartModule
     {
         [KSPField]
-        public string levelOneNode;
+        public string levelOneNode = string.Empty;
 
         [KSPField]
-        public string levelTwoNode;
+        public string levelTwoNode = string.Empty;
 
         [KSPField]
-        public string levelThreeNode;
+        public string levelThreeNode = string.Empty;
 
         protected bool upgradeChecked = false;
 

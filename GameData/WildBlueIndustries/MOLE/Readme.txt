@@ -23,6 +23,11 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.6.1
+
+FCP & Mk1 Docking Port
+- Fixed RealChute drag problems. Thanks for the fix, dave1904! :)
+
 0.6.0 Earth Orbit Stations
 
 With KSP 1.1.X shenanigans finally out of the way, I'm back to creating updates for the MOLE. This update continues with Phase 2: Project Space Station, and delivers new station parts.

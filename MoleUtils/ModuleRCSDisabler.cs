@@ -21,7 +21,7 @@ namespace WildBlueIndustries
     public class ModuleRCSDisabler : PartModule
     {
         [KSPField()]
-        public string disableRCSOnParts = null;
+        public string disableRCSOnParts = string.Empty;
 
         bool wasAttached;
         ModuleRCS parentRCS;

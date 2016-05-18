@@ -22,7 +22,7 @@ namespace WildBlueIndustries
     public class ModuleMarkOneLab : WBIMultiConverter
     {
         [KSPField]
-        public string opsViewTitle;
+        public string opsViewTitle = string.Empty;
 
         public override void OnStart(StartState state)
         {

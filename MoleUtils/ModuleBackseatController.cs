@@ -20,7 +20,25 @@ namespace WildBlueIndustries
 {
     public class ModuleBackseatController : WBIAnimation
     {
+        [KSPField]
+        public string upgradeTech = string.Empty;
+
         protected bool isDeploying = false;
+
+        protected void checkForUpgrade()
+        {
+            //If the player hasn't unlocked the upgradeTech node yet, then hide the RCS functionality.
+            if (ResearchAndDevelopment.Instance != null && !string.IsNullOrEmpty(upgradeTech))
+            {
+                WBIConvertibleStorage storage = this.part.FindModuleImplementing<WBIConvertibleStorage>();
+
+                //If the tech node hasn't been researched yet then hide the RCS module and meshes
+                if (ResearchAndDevelopment.GetTechnologyState(upgradeTech) == RDTech.State.Available)
+                    storage.SetGUIVisible(true);
+                else
+                    storage.SetGUIVisible(false);
+            }
+        }
 
         public void RemoveParentHeatShielding()
         {
@@ -33,7 +51,7 @@ namespace WildBlueIndustries
             //The backseat will have the shielding.
             foreach (PartResource resource in this.part.parent.Resources)
             {
-                if (resource.resourceName == "AblativeShielding")
+                if (resource.resourceName == "Ablator")
                 {
                     resource.amount = 0.001;
                     resource.maxAmount = 0.001;
@@ -64,6 +82,9 @@ namespace WildBlueIndustries
             this.part.OnEditorAttach += OnEditorAttach;
 
             RemoveParentHeatShielding();
+
+            //Upgrade: carry cargo
+            checkForUpgrade();
         }
 
         public override void OnUpdate()
