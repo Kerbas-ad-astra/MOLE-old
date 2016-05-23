@@ -6,7 +6,7 @@ using UnityEngine;
 using KSP.IO;
 
 /*
-Source code copyright 2015, by Michael Billard (Angel-125)
+Source code copyright 2016, by Michael Billard (Angel-125)
 License: CC BY-NC-SA 4.0
 License URL: https://creativecommons.org/licenses/by-nc-sa/4.0/
 Wild Blue Industries is trademarked by Michael Billard and may be used for non-commercial purposes. All other rights reserved.
@@ -21,13 +21,13 @@ namespace WildBlueIndustries
     public class ModuleSASUpgrade : PartModule
     {
         [KSPField]
-        public string levelOneNode;
+        public string levelOneNode = string.Empty;
 
         [KSPField]
-        public string levelTwoNode;
+        public string levelTwoNode = string.Empty;
 
         [KSPField]
-        public string levelThreeNode;
+        public string levelThreeNode = string.Empty;
 
         protected bool upgradeChecked = false;
 
@@ -35,14 +35,18 @@ namespace WildBlueIndustries
         {
             base.OnStart(state);
 
+            if (HighLogic.LoadedSceneIsFlight == false)
+                return;
+
             if (HighLogic.CurrentGame.Mode == Game.Modes.SANDBOX)
             {
                 ModuleSAS sasModule = this.part.FindModuleImplementing<ModuleSAS>();
                 if (sasModule != null)
+                {
                     sasModule.SASServiceLevel = 3;
-
-                sasModule.OnAwake();
-                sasModule.OnActive();
+                    sasModule.OnAwake();
+                    sasModule.OnActive();
+                }
 
                 //Switch ourself off.
                 this.isEnabled = false;

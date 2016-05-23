@@ -1,7 +1,8 @@
 Mark One Laboratory Extensions (M.O.L.E.)
 
-Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Add a docking tunnel system with integrated RCS and parachute for making rendezvous and docking easier. With the Station Service Module, you’ll have additional life support (TAC-LS and Kerbal Snacks compatible), electrical power, and monopropellant. Add a Mark One Laboratory Extension for your experiments, and/or a DenEye Space Telescope for uh- astronomy! Yeah, that’s it!
-MOLE is a stand-alone parts pack with optional support for TAC Life Support, Kerbal Snacks, Real Chute, CactEye Telescope System, and more.
+Are your Mk1 command pods gathering dust? Wish you had a space station earlier in your career? Want to fly more than one kerbal at a time? Then the Mark One Laboratory Extensions (MOLE) are for you! Give your Mk1 command pod a new lease on life by adding a back seat module for an additional kerbal. Then add a docking tunnel system with integrated RCS and parachute for making rendezvous and docking easier. When you're ready for the next step, try out the Mk1.2 "Brumby" 2-seat command pod. Create a simple disposable space station by adding a Mark One Laboratory Extension, power module, and SPF-8 solar panels, and launch it on the 1.875m line of Titan fuel tanks powered by the LV-T270 "Fulcrum" engine. For a longer endurance station, add a Mark One Habitat, or if you're ready to try docking maneuvers, bring up a mini station hub. Your stations can even include the DenEye Space Telescope for, uh, astronomy! Yeah, that's it!
+
+MOLE is a stand-alone parts pack with optional support for Real Chute, KIS/KAS, kOS, CactEye Telescopes Continued, Kerbal Snacks, TAC Life Support, USI-LS, and more.
 
 Real World Inspiration
 
@@ -21,6 +22,194 @@ http://www.nro.gov/foia/declass/MOL.html
 Copy the contents of the zip file to your GameData directory. Be sure to overwrite existing files and replace them.
 
 ---REVISION HISTORY---
+
+0.6.2
+- Fixed Input is NULL errors.
+
+0.6.1
+
+FCP & Mk1 Docking Port
+- Fixed RealChute drag problems. Thanks for the fix, dave1904! :)
+
+Station Light
+- Remodeled the light slightly to make it look better.
+
+Mk1 Drydock
+- Fixed a texturing issue with the Mk1 Drydock.
+
+Life Support
+- Added support for Kerbalism
+- Added support for USI-LS. Thanks for the number crunching, Bombaatu! :)
+
+0.6.0 Earth Orbit Stations
+
+With KSP 1.1.X shenanigans finally out of the way, I'm back to creating updates for the MOLE. This update continues with Phase 2: Project Space Station, and delivers new station parts.
+
+-Updated to KSP 1.1.2
+
+New Parts
+- Added the Mk1 Drydock. You can use this to build new vessels if you have Extraplanetary Launchpads (EL) installed. The part won't be available if you have Pathfinder installed.
+- The MOLE and Station Hub now have EL productivity values.
+- Added a 1.875m docking port. This docking port is designed to dock station modules together and provides a wider hard dock than the Mk1 ports.
+- Added the Titan Separator Unit. This is a separator built to provide a clean separation between two parts.
+- Added a station light. You can configure the color and intensity in the VAB/SPH and in flight.
+
+0.5.0.11
+- Updated to KSP 1.1.1
+- Fixed an issue where the MOLE's lights would not turn on.
+- The MOLE IVA won't be shown when the module is configured to hold LFO and has no crew capacity.
+
+0.5.0.10
+- Fixed issue with Appaloosa when using Sandbox mode.
+
+0.5.0.9
+- Removed redundant LFO template
+
+0.5.0.8
+- Recompiled for KSP 1.1 release
+- Updated to latest WildBlueTools
+
+0.5.0.7
+- Recompiled for latest KSP 1.1
+- Storage containers now use new part module; you might need to hyperedit resources back in.
+
+0.5.0.6
+- Recompiled for the release version of KSP 1.1
+- Changed the resource required to reconfigure modules from RocketParts to Equipment.
+- Added Equipment storage template.
+
+0.5.0.5 (KSP 1.1 pre-release)
+- Added MOLE Settings window to the application toolbar. If you disable "Require resources to reconfigure modules" then you no longer need to bring resources to convert convert a wet workshop into a usable module or to change a module's configuration. Similarly, if you disable "Require skill check to reconfigure modules" then you no longer need to have a skilled engineer/scientist to reconfigure the module.
+NOTE: If you have Pathfinder installed, then the MOLE Settings window will not appear. Use the Pathfinder Settings window instead.
+
+0.5.0.4 (KSP 1.1 pre-release)
+- Updated Station Hub IVA to reflect new KSP 1.1 cutaway view mode.
+
+0.5.0.3 (KSP 1.1 pre-release)
+- Wild Blue Tools updated
+- RCS makes sounds now.
+
+0.5.0.2 (KSP 1.1 pre-release)
+- Removed Bigby Crew Module- it's just a concept design right now and not ready for use.
+- When converted to a fuel tank, the MOLE will hide its window, EVA hatch, and ladder rungs. They'll show up again when you convert the MOLE back into a lab.
+
+0.5.0.1
+- Updated for KSP 1.1.
+NOTE: This is a PRE-RELEASE version! Not guaranteed to work as KSP 1.1 Pre-Release is itself unstable. This has been tested against my own mods but NOT with other mods. I cannot realistically provide support for MOLE working with other mods until KSP 1.1 is officially released, and the other mod(s) have been updated to the release-version of KSP 1.1. All that said, I've done the best I can to test MOLE, and I do appreciate the testing you might do during the pre-release. :)
+- Updated to latest Community Resource Pack and Module Manager (Both Pre-release KSP 1.1)
+
+MOLE
+- Added the pre-release IVA. The release version will (hopefully) be done when KSP 1.1 is finalized.
+- You can now reconfigure the MOLE after launch.
+- Added a LFO template. Now you can launch the MOLE full of fuel, and then outfit it as a lab after reaching orbit. This is similar to the proposed "Wet Workshop" approach to Skylab. As a fuel tank, the MOLE holds about 80% of the fuel as a Titan 900 due to the extra parts it has to store to make it convertible.
+
+Titan Tanks (& Coach)
+- Adjusted where the tanks show up in the tech tree: 
+  Coach 225: General Rocketry
+  Titan-450: Advanced Rockety
+  Titan-900: Advanced Rocketry
+  Titan-1800: Fuel Ststems
+
+Brumby
+- Updated the TAC-LS resource amounts. Thanks StevieC! :)
+- Minor updates to the IVA to reflect the new internal overlay.
+
+0.5 Project Space Station
+
+This update introduces the Station Logistics Hub, the Structural Adapter, and the Gemini-like Brumby. Also, the Mk1 Radial port, SPF-8, and Titan Instrument Unit have been slightly revised.
+
+New Parts
+- Added the Mk1-88 "Brumby," a 2-kerb, 1.875m, Gemini-like capsule. It is available at Advanced Flight Control. The stock IVA is complete; RPM and ASET IVAs will arrive in a future update.
+- Added Station Logistics Hub. This hub has five connector ports. The 3 side ports are designed for the Mk1 docking ports but can accommodate Clamp-O-Tron ports. The hub functions as a minimalist probe core and can hold a small amount of resource storage. Inspiration comes from the ISS's Harmony module.
+- Added the Structural Adapter, a 1.875m to 1.25m adapter similar to the Rockomax Adapter. Thanks for the suggestion, RocketSquid! :)
+
+FCP
+- Fixed an issue that prevented the FCP from working properly in Career/Science Sandbox mode when Advanced Flight Control hasn't been unlocked.
+
+Titan Tanks
+- Fixed issues where the tanks would "hover" when radially attached to other parts.
+
+Titan II Tanks
+- Due to confusion in the parts catalog, moved the Titan II line of tanks out of the MOLE category. You can still find them in the stock Fuel Tanks tab.
+
+Coach (225 & 300)
+- Added CLS support.
+
+SD-18 & SD-25
+- Added Enable/Disable Decoupler button that is only available in the VAB/SPH. If you disable the decoupler, you won't be able to fire the decoupler in flight. This can be a Good Thing (TM) if you just want to use the parts as an adapter.
+
+0.4.3 The difficult we do today, the impossible is in R&D
+
+This update delivers some part revisions, a new radial docking port, and some bug fixes.
+
+New Part
+- Added the Mk1 Radial Docking Port. It is compatible with the Mk1 Docking Port, Clamp-O-Tron Jr. and can be radially attached. It doesn't have a drogue chute.
+
+MOLE
+- Once you've unlocked Advanced Exploration, The MOLE can serve as a Mobile Processing Laboratory (at reduced capacity) or as the basic research lab. You'll have to configure the MOLE in the VAB/SPH before launch, and you can't reconfigure it after launch. If you have Pathfinder installed, then as before, you can configure the lab as a basic research lab or as any of the standard Pathfinder science labs.
+NOTE: Code changes make it necessary for you to retire your existing MOLE modules.
+
+Backseat
+- Moved to Flight Control.
+
+Interstage Service Compartment
+- Retextured the sides to help emphasize the built-in radiator.
+- Added cosmetic avionics boxes.
+- Added aft-facing RCS ports.
+
+1.875m Heat Shield
+- Moved to Flight Control.
+
+FCP & Mk1 Docking Port
+- Resized to Size 0 (0.625m diameter). You'll need to use the VAB/SPH offset tool to flush-mount them to the Mk1 command pod's nose.
+- Added forward-facing RCS ports to the FCP.
+
+Bug Fixes
+- Removed "Toggle Decals" buttons from the Coaches. Thanks for the feedback, tater! :)
+- The Interstage Service Compartment is now easier to attach to your vessels. Thanks again, tater! :)
+- Fixed an issue with the MOLE where it wasn't providing the ability to review your research.
+- Fixed an issue with the Cryo Engines template that was adding liquid hydrogen to everything. Thanks kerbas_ad_astra! :)
+
+0.4.2 For Science!
+
+Looks like I got ahead of myself with the version numbering and features. This release straightens it all out. I'm also happy to report that with this update, MOLE Phase 1 is complete! I'm now working on MOLE Phase 2, which adds the 1.875m station components, and is about halfway done.
+
+New Parts
+- Added the MOLE, a 1.875m science lab. It can perform basic science by consuming ResearchKits. A 2.5m version is planned. The IVA is on backorder- artist's block.
+  * If you have Pathfinder installed, then you can configure it for Science operations at reduced efficiency compared to the Doc Science Lab. 
+  * NOTE: Unlike the Doc, you CANNOT reconfigure the MOLE during flight.
+- Added the Titan Nose Cone, a 1.875m nose cone based on the stock Mk7 nose cone, but with new textures.
+- Added the Titan Adapter Tank, a 1.875m to 2.5m fuel tank.
+- Added the Power Module, a 1.875m station module with a Monopropellant Power Unit (MPU), MonoPropellant, and ElectricCharge.
+- Added the SPF-8 solar panel; this large, early model solar panel is roughly equal to 8 OX-4 solar panels and costs about as much.
+- Added the O-2 "Oxygen" monopropellant powered thruster. It is an OMS engine that can function as a launch abort motor in an emergency.
+
+Mk-85 Backseat
+- Adjusted the center of bouyancy. Thanks for the tips, Kerbas_ad_astra! :)
+- Finished up the IVA flight controls.
+
+Mk1 Docking Port
+- Added RealChute support.
+- For RealChute, the cut altitude of the drogue chute equals the deployment altitude of the main chute.
+NOTE: With RealChute installed, you won't see the staging icon for the docking port until you right-click the part and select Enable Staging. This is a KSP/RealChute issue that arises from the combined docking port and parachute.
+- If you DON'T have RealChute installed, the Mk1 Docking Port can now auto-cut the drogue chute. By default, the cut altitude (700 meters) equals the deploy altitude of the FCP.
+
+Titan Instrument Unit
+- Revised the part description and made the crew tube height flush with the structural ring.
+
+Sample Craft
+- Added the Titan ATV. It is configured to carry LiquidFuel, Oxidizer, MonoPropellant, and has two Coaches ready to accept parts stored via KIS.
+- Added the Titan MOLE. This craft is a single-use space station consisting of the Appaloosa and the new Mark One Laboratory Extension (MOLE), along with the new solar panels and station power module.
+- Made some minor updates to the K-20 Kestrel.
+
+Bug Fixes
+- Fixed issues with the FCP not working with RealChute.
+- Fixed (again) the FCP's misreported height issue in VAB/SPH engineering report.
+- Adjusted the place where rocket exhaust comes out of the LV-T270 Fulcrum.
+- The Backseat MPU should properly consume MonoPropellant while generating ElectricCharge now.
+
+0.4.1 
+- Updated to latest WildBlueTools
 
 0.3 Remember the Titans!
 
