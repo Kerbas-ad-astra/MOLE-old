@@ -24,8 +24,14 @@ namespace WildBlueIndustries
         [KSPField]
         public string opsViewTitle = string.Empty;
 
+        private float originalCrewsRequired;
+
         public override void OnStart(StartState state)
         {
+            ModuleScienceLab sciLab = this.part.FindModuleImplementing<ModuleScienceLab>();
+            if (sciLab != null)
+                originalCrewsRequired = sciLab.crewsRequired;
+
             base.OnStart(state);
 
             if (HighLogic.LoadedSceneIsEditor == false && fieldReconfigurable == false)
@@ -50,8 +56,19 @@ namespace WildBlueIndustries
             ModuleScienceLab sciLab = this.part.FindModuleImplementing<ModuleScienceLab>();
             if (sciLab != null)
             {
-                sciLab.isEnabled = enableMPLModules;
-                sciLab.enabled = enableMPLModules;
+                if (enableMPLModules)
+                {
+                    sciLab.isEnabled = true;
+                    sciLab.enabled = true;
+                    sciLab.crewsRequired = originalCrewsRequired;
+                }
+                else
+                {
+                    sciLab.crewsRequired = 2000.0f;
+                    sciLab.isEnabled = false;
+                    sciLab.enabled = false;
+                }
+
             }
 
             ModuleScienceConverter converter = this.part.FindModuleImplementing<ModuleScienceConverter>();
