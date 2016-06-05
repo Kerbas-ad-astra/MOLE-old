@@ -23,13 +23,17 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.2
+- Added Airlock Module to CLS support.
+- The Brumby now has an IVA variant for RPM.
+
 0.7.1
-- Removed test code. Oops!
+- Removed test code.
 
 0.7.0 Space M+A+X
 This update delivers one new part and a bunch of revisions to others. It also delivers a new science system that favors conducting experiments and bringing them home to reap the rewards. More texture revisions are on the way in future updates.
 WANTED: Good writers who can help flesh out the descriptions for the experimental results.
-WANTED: Playtesters willing to try out the new science experiements and help balance the fun/grind/rewards. Construction criticism appreciated; "It sucks" doesn't help. :)
+WANTED: Playtesters willing to try out the new science experiements and help balance the fun/grind/rewards.
 
 New Part
 - Added an airlock module. This module is dedicated to getting your crew into and out of the station.
@@ -66,7 +70,7 @@ MOLE
 NOTE: if you have an existing MOLE in orbit, it will retain its side EVA hatch; the changes only apply to new craft.
 
 Science System
-- Added a new science system that lets you load experiments into the Coach containers (and Appaloosa), fly them to your stations and transfer them into a MOLE lab, and once completed, load them back into a Coach/Appaloosa for transport back to Kerbin. The experiments have little to no transmit value, encouraging you to bring them home (or if you prefer, load them into an MPL). The new experiments can have many requirements such as orbiting specific planets at specific altitudes, various resources, minimum crew, and required parts. To give players an added challenge, you can optionally specify the percentage chance that an experiment will succeed. You even have the ability to run a specific part module once an experiment has met the prerequisites- that gives you the ability to provide custom benefits. Just be sure to implement the IWBIExperimentResults interface.
+- Added a new science system that lets you load experiments into the Coach containers, fly them to your stations and transfer them into a MOLE lab, and once completed, load them back into a Coach for transport back to Kerbin. The experiments have little to no transmit value, encouraging you to bring them home (or if you prefer, load them into an MPL). The new experiments can have many requirements such as orbiting specific planets at specific altitudes, various resources, minimum crew, and required parts. To give players an added challenge, you can optionally specify the percentage chance that an experiment will succeed. You even have the ability to run a specific part module once an experiment has met the prerequisites- that gives you the ability to provide custom benefits. Just be sure to implement the IWBIExperimentResults interface.
 
 Coach
 - Added new Science! template. Use this template to add up to 4 science experiments to study at your space stations. The Coach 300 holds 6.
@@ -82,7 +86,6 @@ Station Experiments
 Other
 - Added the K-15 to the SampleCraft folder. This sub-orbital demonstrator can reach orbit if flown right.
 - The O-2 engines now have action options to arm and disarm the abort mode.
-KNOWN ISSUE: The inner linings of the Titan tanks are a bit messed up due to the retexturing; don't worry, they'll be fixed in the next release.
 
 0.6.1
 
