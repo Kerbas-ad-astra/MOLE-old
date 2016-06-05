@@ -23,6 +23,9 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.1
+- Removed test code. Oops!
+
 0.7.0 Space M+A+X
 This update delivers one new part and a bunch of revisions to others. It also delivers a new science system that favors conducting experiments and bringing them home to reap the rewards. More texture revisions are on the way in future updates.
 WANTED: Good writers who can help flesh out the descriptions for the experimental results.
