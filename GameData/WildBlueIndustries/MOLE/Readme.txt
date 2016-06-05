@@ -23,6 +23,10 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.3
+- Fixed storage and supply issues when USI-LS is installed.
+- The Brumby now has an IVA variant for ASET.
+
 0.7.2
 - Added Airlock Module to CLS support.
 - The Brumby now has an IVA variant for RPM.
