@@ -23,6 +23,34 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.4
+
+Titan Parts
+- Retextured the Titan tanks, Titan Instrument Unit & Titan Separatron to be more Porkalike.
+NOTE: The retexturing work is ongoing, some parts aren't done yet.
+
+Titan Separator
+- The revised Titan Separatron can be configured as a decoupler or as a separator in the VAB/SPH.
+
+Interstage Adapters
+- Consolidated the IA-18S and IA-18L into the IA-18 Interstage Adapter. There are nodes on the bottom that let you choose between short, medium, and long shrouds. The older IA-18S and IA-18L have been deprecated.
+
+Engines
+- Buffed the thrust for the O-2 "Oxygen" thruster's and the LV-T270 "Fulcrum"
+
+USI-LS
+- Removed Dirt from the USI LifeSupport template.
+- Added icons for USI-LS templates.
+
+Other
+- Added RemoteTech support to the Appaloosa and Titan Instrument Unit.
+
+Bug Fixes
+- Fixed an issue where converter text and experiment manifest text wasn't showing up in the VAB/SPH.
+- Fixed an issue where you'd see crew portraits in a nearby vessel even though you're focused upon a different vessel.
+- Fixed an issue where a science experiment would be run when transferring the experiment out of a lab, even though it hasn't met all the requirements.
+- Fixed an issue where the MOLE could not transmit data back to KSC when RemoteTech is installed. NOTE: This is a pretty simplistic fix; future updates will account for packet transmission rates etc.
+
 0.7.3
 - Fixed storage and supply issues when USI-LS is installed.
 - The Brumby now has an IVA variant for ASET.
