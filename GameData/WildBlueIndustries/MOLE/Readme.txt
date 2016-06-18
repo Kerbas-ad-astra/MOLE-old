@@ -23,6 +23,10 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.4.1
+- Fixed an issue with RemoteTech support breaking antennas.
+- Fixed required KSP version to 1.1.2.
+
 0.7.4
 
 Titan Parts
