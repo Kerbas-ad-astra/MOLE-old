@@ -23,7 +23,25 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.5
+
+- Recompiled for KSP 1.1.3.
+
+New Parts
+- Added the Bigby Crew Module. It's like a Hitchhicker, but shaped to fit on the end of a Brumby or Appaloosa.
+- Added a 2.5m heat shield that allows crew transfers (if CLS is installed).
+
+Titan Parts
+- Finished retexturing the Titan series to be more Porkalike.
+
+Brumby
+- Adjusted internal cockpit lighting.
+
+Bug Fixes
+- Fixed an issue where the O-2 thruster would go into abort mode after the ship runs out of fuel and then refuels.
+
 0.7.4.1
+
 - Fixed an issue with RemoteTech support breaking antennas.
 - Fixed required KSP version to 1.1.2.
 

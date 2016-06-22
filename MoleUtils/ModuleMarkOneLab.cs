@@ -36,13 +36,9 @@ namespace WildBlueIndustries
 
             if (HighLogic.LoadedSceneIsEditor == false && fieldReconfigurable == false)
                 ShowGUI = false;
-        }
 
-        protected override void createModuleOpsView()
-        {
-            base.createModuleOpsView();
             if (string.IsNullOrEmpty(opsViewTitle) == false)
-                moduleOpsView.WindowTitle = opsViewTitle;
+                opsManagerView.WindowTitle = opsViewTitle;
         }
 
         public override void RedecorateModule(bool loadTemplateResources = true)
