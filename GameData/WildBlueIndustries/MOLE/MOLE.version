@@ -1,7 +1,7 @@
 {
     "NAME":"Mark One Laboratory Extensions",
     "URL":"https://raw.githubusercontent.com/Angel-125/MOLE/master/GameData/WildBlueIndustries/MOLE.version",
-    "DOWNLOAD":"https://github.com/Angel-125/DSEV/releases",
+    "DOWNLOAD":"https://github.com/Angel-125/MOLE/releases",
     "GITHUB":
     {
         "USERNAME":"Angel-125",
@@ -11,14 +11,14 @@
     "VERSION":
     {
 	"MAJOR":0,
-	"MINOR":6,
-	"PATCH":1,
-	"BUILD":2
+	"MINOR":7,
+	"PATCH":5,
+	"BUILD":0
     },
     "KSP_VERSION":
     {
         "MAJOR":1,
         "MINOR":1,
-        "PATCH":2
+        "PATCH":3
     },
 }

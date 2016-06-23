@@ -27,6 +27,18 @@ namespace WildBlueIndustries
         [UI_Toggle(disabledText = "Disarmed", enabledText = "Armed")]
         public bool abortModeArmed;
 
+        [KSPAction("Arm Abort Mode")]
+        public void ArmAbortMode(KSPActionParam param)
+        {
+            abortModeArmed = true;
+        }
+
+        [KSPAction("Disarm Abort Mode")]
+        public void DisarmAbortMode(KSPActionParam param)
+        {
+            abortModeArmed = false;
+        }
+
         [KSPAction("Activate Abort Mode", KSPActionGroup.Abort)]
         public void ToggleAbortAction(KSPActionParam param)
         {

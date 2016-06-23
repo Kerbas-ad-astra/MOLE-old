@@ -23,8 +23,123 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
-0.6.2
-- Fixed Input is NULL errors.
+0.7.5
+
+- Recompiled for KSP 1.1.3.
+
+New Parts
+- Added the Bigby Crew Module. It's like a Hitchhicker, but shaped to fit on the end of a Brumby or Appaloosa.
+- Added a 2.5m heat shield that allows crew transfers (if CLS is installed).
+
+Titan Parts
+- Finished retexturing the Titan series to be more Porkalike.
+
+Brumby
+- Adjusted internal cockpit lighting.
+
+Bug Fixes
+- Fixed an issue where the O-2 thruster would go into abort mode after the ship runs out of fuel and then refuels.
+
+0.7.4.1
+
+- Fixed an issue with RemoteTech support breaking antennas.
+- Fixed required KSP version to 1.1.2.
+
+0.7.4
+
+Titan Parts
+- Retextured the Titan tanks, Titan Instrument Unit & Titan Separatron to be more Porkalike.
+NOTE: The retexturing work is ongoing, some parts aren't done yet.
+
+Titan Separator
+- The revised Titan Separatron can be configured as a decoupler or as a separator in the VAB/SPH.
+
+Interstage Adapters
+- Consolidated the IA-18S and IA-18L into the IA-18 Interstage Adapter. There are nodes on the bottom that let you choose between short, medium, and long shrouds. The older IA-18S and IA-18L have been deprecated.
+
+Engines
+- Buffed the thrust for the O-2 "Oxygen" thruster's and the LV-T270 "Fulcrum"
+
+USI-LS
+- Removed Dirt from the USI LifeSupport template.
+- Added icons for USI-LS templates.
+
+Other
+- Added RemoteTech support to the Appaloosa and Titan Instrument Unit.
+
+Bug Fixes
+- Fixed an issue where converter text and experiment manifest text wasn't showing up in the VAB/SPH.
+- Fixed an issue where you'd see crew portraits in a nearby vessel even though you're focused upon a different vessel.
+- Fixed an issue where a science experiment would be run when transferring the experiment out of a lab, even though it hasn't met all the requirements.
+- Fixed an issue where the MOLE could not transmit data back to KSC when RemoteTech is installed. NOTE: This is a pretty simplistic fix; future updates will account for packet transmission rates etc.
+
+0.7.3
+- Fixed storage and supply issues when USI-LS is installed.
+- The Brumby now has an IVA variant for ASET.
+
+0.7.2
+- Added Airlock Module to CLS support.
+- The Brumby now has an IVA variant for RPM.
+
+0.7.1
+- Removed test code.
+
+0.7.0 Space M+A+X
+This update delivers one new part and a bunch of revisions to others. It also delivers a new science system that favors conducting experiments and bringing them home to reap the rewards. More texture revisions are on the way in future updates.
+WANTED: Good writers who can help flesh out the descriptions for the experimental results.
+WANTED: Playtesters willing to try out the new science experiements and help balance the fun/grind/rewards.
+
+New Part
+- Added an airlock module. This module is dedicated to getting your crew into and out of the station.
+
+Interstage Adapters
+- Redesigned the IA-18 adapters to let you toggle between 1, 3, 5, and 7 engine nodes in the VAB/SPH. There is enough space for 0.625m engines to sit side by side. When you have CLS installed, the central node is crew accessible.
+NOTE: This feature only applies to new craft that you design, not existing craft in the field.
+
+Appaloosa
+- Remodeled the part to account for graphics issues uncovered by KSP's new IVA overlay feature. This will only affect new craft; the older model has been deprecated.
+- In the VAB/SPH, you can now toggle the top node from its normal recessed position to a position flush with the top of the part.
+- After you've unlocked Advanced Flight Control (or are in Sandbox), you can fly a small amount of cargo in the Backseat.
+- Reworked the ladder and EVA hatch triggers. Hopefully that'll help with some of the issues people are experiencing.
+
+Brumby
+- Retextured to be more porkalike. Thanks for the tips and feedback, CobaltWolf! :)
+- Fixed top node to the correct location.
+- Reworked the ladder and EVA hatch triggers. Hopefully that'll help with some of the issues people are experiencing.
+
+Station Hub
+- Removed side EVA hatch; you can still transfer crew into and out of the module via the context menu.
+- Added end-cap EVA hatches as emergency exits- great for those kerbal rescue missions.
+- Added TAC-LS configurations for those who run with TAC-LS. There is a carbon extractor, water purifier, and water splitter. Being early tech, they're not as good as the 1.25m TAC converters, and they pretty much take up the whole module. Thanks for the suggestion, TheReadPanda! :)
+NOTE: if you have an existing station hub in orbit, it will retain its side EVA hatch; the changes only apply to new craft.
+
+MOLE
+- MOLE IVA is now complete.
+- Retextured exterior to be more porkalike.
+- Removed side EVA hatch; you can still transfer crew into and out of the module via the context menu.
+- Added end-cap EVA hatches as emergency exits- great for those kerbal rescue missions.
+- MOLE lab now generates LabTime.
+- Reduced the amount of science generated by the MOLE Lab to 0.1 per day.
+- Fixed an issue where the MOLE would receive science reports even when it wasn't configured as a Mobile Processing Lab. Thanks for the detailed bug report, MaxRebo! :)
+NOTE: if you have an existing MOLE in orbit, it will retain its side EVA hatch; the changes only apply to new craft.
+
+Science System
+- Added a new science system that lets you load experiments into the Coach containers, fly them to your stations and transfer them into a MOLE lab, and once completed, load them back into a Coach for transport back to Kerbin. The experiments have little to no transmit value, encouraging you to bring them home (or if you prefer, load them into an MPL). The new experiments can have many requirements such as orbiting specific planets at specific altitudes, various resources, minimum crew, and required parts. To give players an added challenge, you can optionally specify the percentage chance that an experiment will succeed. You even have the ability to run a specific part module once an experiment has met the prerequisites- that gives you the ability to provide custom benefits. Just be sure to implement the IWBIExperimentResults interface.
+
+Coach
+- Added new Science! template. Use this template to add up to 4 science experiments to study at your space stations. The Coach 300 holds 6.
+- Changed default template from Storage to Science!
+- Added TAC-LS storage templates (requires TAC-LS).
+
+Station Experiments
+- Added Space Adaption Study. Requires LabTime, kerbals, and a station orbiting Kerbin.
+- Added Orbital Construction Techniques. Requires LabTime and a station orbiting Kerbin.
+- Added Crystal Growth Experiment. Requires LabTime and a station orbiting Kerbin.
+- Added Power Tools Evaluation. Requires LabTime and a station orbiting Kerbin.
+
+Other
+- Added the K-15 to the SampleCraft folder. This sub-orbital demonstrator can reach orbit if flown right.
+- The O-2 engines now have action options to arm and disarm the abort mode.
 
 0.6.1
 
