@@ -23,6 +23,9 @@ Copy the contents of the zip file to your GameData directory. Be sure to overwri
 
 ---REVISION HISTORY---
 
+0.7.6
+- The Bigby Crew Module now has a set of integrated RCS thrusters.
+
 0.7.5
 
 - Recompiled for KSP 1.1.3.
